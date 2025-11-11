@@ -10365,6 +10365,5 @@ zoom = Vector2(1.5, 1.5)
 [node name="EnemySpawner" type="Node2D" parent="Player"]
 script = ExtResource("4_jyhfs")
 enemy_scene = ExtResource("5_tbgi4")
-interval = 1000
 
 [node name="Enemies" type="Node2D" parent="."]
