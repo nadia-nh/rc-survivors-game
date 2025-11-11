@@ -1,7 +1,8 @@
-[gd_scene load_steps=6 format=4 uid="uid://bvm6i5c16m0pi"]
+[gd_scene load_steps=7 format=4 uid="uid://bvm6i5c16m0pi"]
 
 [ext_resource type="Texture2D" uid="uid://n7xnnm61hw6l" path="res://assets/Spritesheet.png" id="1_o5qli"]
 [ext_resource type="Script" uid="uid://dyv3ak1qtcgds" path="res://scripts/player.gd" id="2_0wfyh"]
+[ext_resource type="Texture2D" uid="uid://ban6s0ycthv1q" path="res://assets/octopus.png" id="3_sugp2"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_o5qli"]
 texture = ExtResource("1_o5qli")
@@ -10348,8 +10349,7 @@ physics_quadrant_size = 32
 script = ExtResource("2_0wfyh")
 
 [node name="Sprite2D" type="Sprite2D" parent="Player"]
-texture = ExtResource("1_o5qli")
-region_enabled = true
+texture = ExtResource("3_sugp2")
 region_rect = Rect2(676, 995, 29, 27)
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Player"]
