@@ -10356,4 +10356,4 @@ region_rect = Rect2(676, 995, 29, 27)
 position = Vector2(-2, 1)
 shape = SubResource("CapsuleShape2D_o5qli")
 
-[node name="Camera2D" type="Camera2D" parent="."]
+[node name="Camera2D" type="Camera2D" parent="Player"]
