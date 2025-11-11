@@ -26,7 +26,6 @@ func spawn_enemy() -> void:
 	var enemy = enemy_scene.instantiate()
 	enemy.position = player_node.position + Vector2(100,0)
 	enemy_spawn_node.add_child(enemy)
-	print(enemy.position.x,enemy.position.y)
 
 # Called when the node enters the scene tree for the first time.
 func _ready() -> void:
@@ -38,9 +37,7 @@ func _ready() -> void:
 # Called every frame. 'delta' is the elapsed time since the previous frame.
 func _process(delta: float) -> void:
 	cooldown += delta
-	print(cooldown, " ", spawn_interval)
 	if (cooldown > spawn_interval):
-		print("cooldown met")
 		cooldown = cooldown - spawn_interval
 		spawn_interval = spawn_interval * interval_acceleration
 		# spawn some enemies
