@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://n7xnnm61hw6l"
-path="res://.godot/imported/Spritesheet.png-e3646ab470d1f32c0e9eaa51b8116775.ctex"
+uid="uid://ewd1vt23rw2w"
+path="res://.godot/imported/water-tiles.png-56bd9d08669c301607934a6675c0fc11.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/Spritesheet.png"
-dest_files=["res://.godot/imported/Spritesheet.png-e3646ab470d1f32c0e9eaa51b8116775.ctex"]
+source_file="res://assets/water-tiles.png"
+dest_files=["res://.godot/imported/water-tiles.png-56bd9d08669c301607934a6675c0fc11.ctex"]
 
 [params]
 
