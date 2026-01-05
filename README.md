@@ -2,11 +2,12 @@
 
 <img width="640" height="480" alt="godot-underwater-survivors screenshot" src="screenshot-rc-survivors.png" />
 
-A small collaborative game built at the [The Recurse Center](https://recurse.com) using [Godot](https://godotengine.org/) by [Nadia Heredia](https://github.com/nadia-nh), [Scott Sheffield](https://github.com/scottsheffield), [Sasha Mishkin](https://github.com/sasha-of-the-pixels), and [Joseph Abrahamson](https://github.com/tel).
+A small game built at the [The Recurse Center](https://recurse.com) using [Godot](https://godotengine.org/) by [Nadia Heredia](https://github.com/nadia-nh), [Scott Sheffield](https://github.com/scottsheffield), [Sasha Mishkin](https://github.com/sasha-of-the-pixels), and [Joseph Abrahamson](https://github.com/tel).
 
-You play as an octopus swimming in the water, moving around to avoid incoming fish. There is no combat or health system, if enough fish catch up to the octopus, they will continuously follow it, eventually making it impossible to move.
+You play as an octopus swimming in the water, moving around to avoid incoming fish.  
+There is no combat or health system, the fish continuously follow the player, and if enough fish catch up to them, they won’t be able to move anymore.
 
-Be careful and avoid the incoming fish for as long as you can.
+Be careful and avoid the incoming fish for as long as you can!
 
 ## Running the game
 
