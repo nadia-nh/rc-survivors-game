@@ -2,19 +2,19 @@
 
 <img width="640" height="480" alt="godot-underwater-survivors screenshot" src="screenshot-rc-survivors.png" />
 
-A small game built at the [The Recurse Center](https://recurse.com) using [Godot](https://godotengine.org/) by [Nadia Heredia](https://github.com/nadia-nh), [Scott Sheffield](https://github.com/scottsheffield), [Sasha Mishkin](https://github.com/sasha-of-the-pixels), and [Joseph Abrahamson](https://github.com/tel).
+A small game built at [The Recurse Center](https://recurse.com) using [Godot](https://godotengine.org/) by [Nadia Heredia](https://github.com/nadia-nh), [Scott Sheffield](https://github.com/scottsheffield), [Sasha Mishkin](https://github.com/sasha-of-the-pixels), and [Joseph Abrahamson](https://github.com/tel).
 
 You play as an octopus swimming in the water, moving around to avoid incoming fish.  
 There is no combat or health system, the fish continuously follow the player, and if enough fish catch up to them, they won’t be able to move anymore.
 
-Be careful and avoid the incoming fish for as long as you can!
+Be careful and avoid the incoming fish for as long as you can! Try the game out [here](https://forgepixel.itch.io/underwater-survivors).
 
-## Running the game
+## Running the game locally
 
 Clone the repo:
 ```bash
 git clone https://github.com/nadia-nh/rc-survivors-game.git
-cd rc-survivors-game.git
+cd rc-survivors-game
 ```
 
 Run with Godot 4:
@@ -32,10 +32,12 @@ Controls:
 
 ## Assets
 
-- **Player and enemy images**  
+- **Player and enemy images**
+
   Created by Sasha for this project.
 
 - **Background water images**
+
   Creator: [You're perfect studio](https://opengameart.org/users/youre-perfect-studio)  
   Source: [Water tiles](https://opengameart.org/content/water-tiles)  
   License: CC by 4.0
