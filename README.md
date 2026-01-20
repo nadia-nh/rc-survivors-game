@@ -1,4 +1,4 @@
-# RC Survivors
+# Fishy Water
 
 <img width="640" height="480" alt="godot-underwater-survivors screenshot" src="screenshot-rc-survivors.png" />
 
